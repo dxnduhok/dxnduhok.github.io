@@ -1,20 +1,30 @@
 {
-  "short_name": "DXN Products",
-  "name": "DXN Products List",
+  "short_name": "مساعد DXN",
+  "name": "DXN Assistant",
+  "description": "عرض قائمة اسعار منتجات (dxn) و مساعدة في الحسابات",
   "icons": [
     {
-      "src": "zmB.svg",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/svg"
+      "src": "icons/zmdxn192.png",
+      "type":"image/png",
+      "size":"192x192"
     },
     {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
+      "src": "icons/zmdxn192T.png",
+      "type":"image/png",
+      "size":"192x192"
+    },
+    {
+      "src": "icons/zmdxnT.ico",
+      "type":"image/ico"
+    },
+    {
+      "src": "icons/zmdxn.png",
+      "type":"image/png",
+      "size":"any"
     }
   ],
   "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "display": "fullscreen",
+  "theme_color": "#e9736af6",
+  "background_color": "white"
 }
